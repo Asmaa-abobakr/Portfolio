@@ -1,0 +1,22 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+    --red: #c00;
+  }
+
+
+  .accor-card-container{
+      background-color: var(--secColor);
+  }
+
+  .accor-card-container .card-name{
+      background-color: var(--primaryColor);
+  }
+
+  .accor-card-container .card-text{
+      color: var(--primaryColor);
+  }

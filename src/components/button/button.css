@@ -1,0 +1,25 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+  }
+
+.col{
+    padding: 2% 2%;
+    margin: 0 1%;
+    font-size: 22px;
+    color: var(--secColor);
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.col:hover{
+    color: var(--primaryColor);
+    background-color: var(--bgBorder);
+    border: 1px solid var(--bgBorder);
+}

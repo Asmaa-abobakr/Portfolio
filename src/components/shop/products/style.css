@@ -1,0 +1,94 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+    --red: #c00;
+  }
+
+
+.products-container{
+    width: 95%;
+}
+
+.product-container{
+    width: 95%;
+    height: 21.875rem;
+    padding: 3% 4%;
+    border-radius: .3125rem;
+    border: 1px solid var(--secColor);
+    box-shadow: 5px 5px 5px var(--quatColor);
+    background-color: var(--secColor);
+}
+
+.product-container .price{
+    font-weight: bold;
+}
+
+.product-container .product-img-container{
+    width: 9.375rem;
+    height: 9.375rem;
+
+}
+
+.product-container .product-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-container .social-icon{
+    color: var(--terColor);
+}
+
+.product-container .product-title a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+.product-container .product-title:hover a{
+    color: var(--red);
+}
+
+.product-container .inactive-btn{
+    text-decoration: line-through;
+    background-color: var(--quatColor);
+    color: var(--secColor);
+}
+
+.product-container .active-btn{
+    background-color: var(--red);
+    color: var(--secColor);
+}
+
+.product-container .active-btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--secColor);
+}
+
+.product-container .details-btn{
+    background-color: var(--terColor);
+    color: var(--secColor);
+}
+
+.product-container .details-btn:hover{
+    background-color: var(--primaryColor);
+    color: var(--secColor);
+}
+
+.spinnerStyle{
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+@media (max-width:62rem){
+    .product-container{
+        height: auto;
+    }
+}

@@ -1,0 +1,44 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+  }
+
+.form-container{
+    background-color: var(--bgBorder);
+}
+
+.form-container .input-feild{
+    border: none;
+    background-color: var(--secColor);
+}
+.form-container .input-feild:focus-visible{
+    outline: none;
+}
+
+.form-container .error-msg{
+    margin-bottom: 1.5625rem;
+    padding: .5rem;
+    width: 100%;
+    color: red;
+    border: 1px solid red;
+    border-radius: .3125rem;
+    background-color: rgb(240, 196, 196);
+}
+
+.form-container .btn-submit {
+    border: none;
+    border-radius: .3125rem;
+    padding: .1875rem 1.25rem;
+    font-size: 1.375rem;
+    color: var(--secColor);
+    background-color: var(--primaryColor);
+}
+
+.form-container .btn-submit:hover{
+    color: var(--primaryColor);
+    background-color: var(--secColor);
+}

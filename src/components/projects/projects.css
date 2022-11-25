@@ -1,0 +1,49 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+}
+
+.projects-container{
+    width: 90%;
+    margin: 1.25rem auto;
+}
+
+.projects-container .project-card-container{
+    width: 95%;
+    background-color: var(--secColor);
+    min-height: 445px;
+}
+
+.project-card-container .project-card-title{
+    color: var(--primaryColor);
+}
+
+.project-card-container .project-card-text{
+    color: var(--primaryColor);
+}
+
+.project-card-container .project-card-btn{
+    background-color: var(--terColor);
+    border-color: var(--terColor);
+}
+
+.project-card-container .project-card-btn a{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.project-card-container .project-card-btn:hover{
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.project-card-container .project-card-btn:hover a{
+    color: var(--secColor);
+}
+
+
+

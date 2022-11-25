@@ -1,0 +1,25 @@
+/* variables: */
+:root{
+    --primaryColor: #2e2d2d;
+    --secColor: #dedcd6;
+    --terColor:#ffc107c9;
+    --quatColor:#9c9c9c;
+    --bgBorder: #f0d174ad;
+}
+
+.card-container{
+    background-color: var(--bgBorder);
+}
+
+.card-container .card-title{
+    color: var(--primaryColor);
+}
+
+.card-container .card-text{
+    color: var(--primaryColor);
+}
+
+.list-icon{
+    font-size: .4375rem;
+    padding-bottom: .1875rem;
+}
